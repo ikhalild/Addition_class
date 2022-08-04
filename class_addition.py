@@ -10,7 +10,7 @@ list_nombres = [1,2,3,4,5,6,7,8]
 class Addition:
     
     def __init__(self, nombres):
-        self.nombre = nombres
+        self.nombres = nombres
         
     def validate (self):
         for n in self.nombres:
@@ -31,4 +31,9 @@ class Addition:
     def affiche_somme(self):
         print(f"La somme des {self.nombres} est : {self.some}.")
         
+        
+somme_nombres = Addition(list_nombres)
+somme_nombres.validate()
+somme_nombres.sum()
+somme_nombres.affiche_somme()        
         
