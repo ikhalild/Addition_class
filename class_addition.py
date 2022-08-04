@@ -19,3 +19,13 @@ class Addition:
             else:
                 self.valide = False
                 raise ValueError("Entrez un nombres valide s'il vous plaît.")
+                
+                
+    def sum(self):
+        self.some = 0
+        for i in self.nombres:
+            self.some += i
+            return self.some
+        
+        
+    
