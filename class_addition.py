@@ -28,4 +28,7 @@ class Addition:
             return self.some
         
         
-    
+    def affiche_somme(self):
+        print(f"La somme des {self.nombres} est : {self.some}.")
+        
+        
